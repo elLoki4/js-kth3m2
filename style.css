@@ -1,0 +1,58 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    350deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(181, 181, 213, 1) 60%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-attachment: fixed;
+}
+
+.var {
+  width: 100%;
+  background-color: rgba(18, 14, 253, 0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  height: 250px;
+}
+
+.container-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.card {
+  width: 18rem;
+  display: inline-block;
+  margin: 10px;
+}
+
+.card-img-top {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.card .btn {
+  width: 100%;
+}
+
+.card .card-text {
+  max-height: 54px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card .card-title {
+  max-height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
